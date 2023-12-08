@@ -4,12 +4,12 @@ import java.util.ServiceConfigurationError;
 public class C01InputOutput {
     public static void main(String[] args) {
 
-////        출력
+//        출력
 //        int a = 20;
-////        print 는 출력후 줄바꿈 없음. println은 출력후 줄바꿈
+//        print 는 출력후 줄바꿈 없음. println은 출력후 줄바꿈
 //        System.out.print(a);
 //        String myString = "hello world";
-////        문자열과 숫자를 합하면 문자가 된다-5
+//        문자열과 숫자를 합하면 문자가 된다-5
 //        System.out.println(myString + a);    }
 //          숫자와 숫자를 더하면 더하기 () -> 연산된다
                 System.out.println(10+20);
