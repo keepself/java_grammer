@@ -20,18 +20,22 @@ public class C05LoopStatement {
 //        a++;
 //    }
 //
-//    int a = 1;
-//    while(a < 10){
-//        a++;
-//        System.out.println(a);
-//        while (true) {
-//            Scanner sc = new Scanner(System.in);
-//            System.out.println("구구단 단수를 입력해주세요");
-//            int input = sc.nextInt();
-//            int a = 0;
-//            while (a < 10) {
-//                System.out.println(input + " X " + a + " = " + input * a);
-//                a++;
+        int a = 1;
+        while (a < 10) {
+            a++;
+            System.out.println(a);
+            while (true) {
+                Scanner sc = new Scanner(System.in);
+                System.out.println("구구단 단수를 입력해주세요");
+                int input = sc.nextInt();
+                while (a < 10) {
+                    System.out.println(input + " X " + a + " = " + input * a);
+                    a++;
+                }
+            }
+        }
+    }
+}
 //
 //        while(true){
 //            String answer = "0234";
@@ -155,37 +159,36 @@ public class C05LoopStatement {
 //                System.out.println(num + " X " + i + " = " + num * i);
 
 //          2중 for 문을 통해 배열접근
-        int[][] arr = { {1,2,3,4}, {5,6,7,8} } ;
-        System.out.println(arr[1][0]);
-
-        for(int k = 0; k<arr.length; k++){
-            for(int i =0; i<arr[k].length; i++) {
-                System.out.println(arr[k][i]);
-            }
-        }
-
-//        trim,strip
-
-        String trimSt = " hello world ";
-        String new_trimSt = trimSt.trim();
-        String stripSt = trimSt.strip();
-        System.out.println(new_trimSt);
-        System.out.println(trimSt);
-
-//       TOUPPER
-
-        String a = "Hello";
-        String a1 = a.toUpperCase();
-        String a2 = a.toLowerCase();
-
-
-
-
+//        int[][] arr = { {1,2,3,4}, {5,6,7,8} } ;
+//        System.out.println(arr[1][0]);
+//
+//        for(int k = 0; k<arr.length; k++){
+//            for(int i =0; i<arr[k].length; i++) {
+//                System.out.println(arr[k][i]);
+//            }
+//        }
+//
+////        trim,strip
+//
+//        String trimSt = " hello world ";
+//        String new_trimSt = trimSt.trim();
+//        String stripSt = trimSt.strip();
+//        System.out.println(new_trimSt);
+//        System.out.println(trimSt);
+//
+////       TOUPPER
+//
+//        String a = "Hello";
+//        String a1 = a.toUpperCase();
+//        String a2 = a.toLowerCase();
+//
+//
 
 
 
 
-    }
-}
+
+
+
 
 

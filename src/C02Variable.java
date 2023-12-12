@@ -22,10 +22,10 @@
 ////                미세오차는 조정되어 정상적으로 출력
 ////                        System.out.println(double_uum);
 ////               반복적인 연산시 오차가 확대되어 오차확인가능
-////                for(int i=0;i<100;i++){
-////                        System.out.println(i);
-////                }
-////                double double_uum = 0.1;
+//                for(int i=0;i<100;i++){
+//                        System.out.println(i);
+//                }
+//                double double_uum = 0.1;
 ////                for(int i=0; i<1000; i++){
 ////                        System.out.println(i);
 //////              반복적인 연산시 오차가 확대되어 오차 확인가능
@@ -142,3 +142,4 @@
 //                        b = same_index << 1
 ////              첫번째 반ㅂ
 //                                -
+

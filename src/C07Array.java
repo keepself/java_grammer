@@ -88,37 +88,88 @@ public class C07Array {
 //        System.out.println(Arrays.toString(arr));
 
         //정렬 sort() 함수 사용
-        int[] arr = {1, 4, 23, 25, 23};
-//        오름차순
-//        정렬이 기본
-        Arrays.sort(arr);
-        System.out.println(Arrays.toString(arr));
+//        int[] arr = {1, 4, 23, 25, 23};
+////        오름차순
+////        정렬이 기본
+//        Arrays.sort(arr);
+//        System.out.println(Arrays.toString(arr));
+//
+////        내림차순
+////        방법1.Comparatior클래스 사용
+////    객체타입인 경우에만 Comparator객체 사용 가능
+//        String[] st_arr = {"hello", "hi", "bye", "goodmorning"};
+//        Arrays.sort(st_arr);
+//        System.out.println(Arrays.toString(st_arr));
+//        Arrays.sort(st_arr, Comparator.reverseOrder());
+//        System.out.println(Arrays.toString(st_arr));
+//        Integer[] arr_integer = {1, 4, 23, 25, 23};
+//        Arrays.sort(arr_integer, Comparator.reverseOrder());
+////      Comparator클래스는 기본형타입은 처리불가
+////      Arrays.sort(arr, Comparator,reverse0rder());
+////      방법2. 배열뒤집기
+//        for (int i = 0; i < arr.length / 2; i++) {
+//            int tmp2 = arr[arr.length - i - 1];
+//            arr[arr.length - i - 1] = arr[i];
+//            arr[i] = tmp2;
+//
+////      StreamApi, lambda를 활용한 내림차순 정렬
+//            int[] arr2 = {4, 5, 7, 3, 7, 4, 2, 3};
+//            int[] new_arr2 = Arrays.stream(arr2) //arr2를 대상으로 stream객체 생성
+//                    .boxed() // Integer 형변환한 스트림객체생성
+//                    .sorted(Comparator.reverseOrder()) // 내림차순정렬
+//                    .mapToInt(a -> a) //Integer를 int로 변환
+//                    .toArray(); //배열로 변환
+//
+//import java.util.*;
+//            public class C08_List {
+//                public static void main(String[] args) {
+//                    // list 선언 방법
+//                    // ArrayList<String> list = new ArrayList<String>();
+//                    // 가장 흔한 방식으로 왼쪽엔 인터페이스, 오른쪽엔 구현체;
+//                    // ArrayList<String> list = new ArrayList<>();
+//​
+//                    ArrayList<String> list1 = new ArrayList<>();
+//​
+//                    // 초기값 생성 방법
+//                    list1.add("java");
+//                    list1.add("python");
+//                    list1.add("c++");
+//                    System.out.println(list1);
+//​
+//                    ArrayList<String> list2 = new ArrayList<>(Arrays.asList("java, python, c++"));
+//                    System.out.println(list2);
+//​
+//                    String[] str = {"java", "python", "c++"};
+//                    ArrayList<String> list3 = new ArrayList<>(Arrays.asList(str));
+//                    System.out.println(list3);
+//​
+//                    // 배열이 int인 경우 -> 형변환 문제 발생
+//                    int[] myintarr = {1,2,3};
+//                    // List<Integer> myIntarr = new ArrayList<>(Arrays.asList(myintarr));
+//                    List<Integer> myIntarr = new ArrayList<>();
+//                    for (int i = 0; i < myintarr.length; i++) {
+//                        myIntarr.add(myintarr[i]);
+//                    }
+//                    System.out.println(myIntarr);
+//​
+//​
+//                }
+//            }
 
-//        내림차순
-//        방법1.Comparatior클래스 사용
-//    객체타입인 경우에만 Comparator객체 사용 가능
-        String[] st_arr = {"hello", "hi", "bye", "goodmorning"};
-        Arrays.sort(st_arr);
-        System.out.println(Arrays.toString(st_arr));
-        Arrays.sort(st_arr, Comparator.reverseOrder());
-        System.out.println(Arrays.toString(st_arr));
-        Integer[] arr_integer = {1, 4, 23, 25, 23};
-        Arrays.sort(arr_integer, Comparator.reverseOrder());
-//      Comparator클래스는 기본형타입은 처리불가
-//      Arrays.sort(arr, Comparator,reverse0rder());
-//      방법2. 배열뒤집기
-        for (int i = 0; i < arr.length / 2; i++) {
-            int tmp2 = arr[arr.length - i - 1];
-            arr[arr.length - i - 1] = arr[i];
-            arr[i] = tmp2;
 
-//      StreamApi, lambda를 활용한 내림차순 정렬
-            int[] arr2 = {4, 5, 7, 3, 7, 4, 2, 3};
-            int[] new_arr2 = Arrays.stream(arr2) //arr2를 대상으로 stream객체 생성
-                    .boxed() // Integer 형변환한 스트림객체생성
-                    .sorted(Comparator.reverseOrder()) // 내림차순정렬
-                    .mapToInt(a -> a) //Integer를 int로 변환
-                    .toArray(); //배열로 변환
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         }
@@ -130,4 +181,4 @@ public class C07Array {
 
 
 
-}
+

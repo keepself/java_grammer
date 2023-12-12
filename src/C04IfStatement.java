@@ -26,7 +26,7 @@ public class C04IfStatement {
 
 //도어락 if 문 예제
 //
-//        String answer = "0234";
+//        String answer = "0233";
 //        Scanner sc = new Scanner(System.in);
 //
 //        System.out.println("비밀번호를 입력하세요");
@@ -39,18 +39,19 @@ public class C04IfStatement {
 //                묵시적 타입변환
 //          a: 97 , A : 65,
 ////        사용자한테 알파벳을 아무거나 입력받고, 그 알파벳이 대문자인지 소문자인지 판별
-////        "a" -> 'a'
-//        sc.nextLine().charAt(0);
+//        "a" -> 'a'
+        Scanner sc = null;
+        sc.nextLine().charAt(0);
 
-//        Scanner sc = new Scanner(System.in);
-//        char input = sc.nextLine().charAt(0);
-//        if(input >= 'a' && input<='z') {
-//            System.out.println("소문자입니다.");
-//        }else if(input >= 'A'  && input<='Z'){
-//            System.out.println("대문자입니다.");
-//        }else{
-//            System.out.println("알파벳이 아닙니다");
-////        }
+        sc = new Scanner(System.in);
+        char input = sc.nextLine().charAt(0);
+        if (input >= 'a' && input <= 'z') {
+            System.out.println("소문자입니다.");
+        } else if (input >= 'A' && input <= 'Z') {
+            System.out.println("대문자입니다.");
+        } else {
+            System.out.println("알파벳이 아닙니다");
+//        }
 ////    버스카드 예제
 //         내 돈 이 얼마있는지를 입력
 //                버스요금 1500이다
@@ -121,47 +122,44 @@ public class C04IfStatement {
 //        원하시는 번호를 입력주세요
 //                1. 대출 서비스 입니다. 2. 예금. 3.적금 0.상담사연결입니다. 그외: 잘못누르셨습니다.
 
-
-        System.out.println("원하시는 서비스 번호를 입력해주세요");
-        Scanner sc = new Scanner(System.in);
-        int input = sc.nextInt();
-        switch (input) {
-            case 1:
-                System.out.println("대출 서비스 입니다.");
-                break;
-
-            case 2:
-                System.out.println("예금입니다");
-                break;
-
-
-            case 3:
-                System.out.println("적금입니다");
-                break;
-
-
-            case 0:
-                System.out.println("상담사연결입니다.");
-                break;
-
-            default:
-                System.out.println("잘못 누르셨습ㄴ다.");
-                break;
+//
+//        System.out.println("원하시는 서비스 번호를 입력해주세요");
+//        Scanner sc = new Scanner(System.in);
+//        int input = sc.nextInt();
+//        switch (input) {
+//            case 1:
+//                System.out.println("대출 서비스 입니다.");
+//                break;
+//
+//            case 2:
+//                System.out.println("예금입니다");
+//                break;
+//
+//
+//            case 3:
+//                System.out.println("적금입니다");
+//                break;
+//
+//
+//            case 0:
+//                System.out.println("상담사연결입니다.");
+//                break;
+//
+//            default:
+//                System.out.println("잘못 누르셨습ㄴ다.");
+//                break;
 
 
 //        }
 //    a = 0; 0/9 => 10번
 //    while (a>1){조건식의 결과가 참인 동안 반복적으로 실행하고자 하는 명령문;
 //        a --;
-    }
+        }
 //        조건식을 변화시키는 구문
 //
 //    while 사용해서 2~10까지 출력
-
-        int a=2 ;
-
-
-
+//
+//        int a = 2;
 
 
     }
