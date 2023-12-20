@@ -3,9 +3,9 @@ package C12ClassLecture;
 public class C1205PracticeBANK {
         public static void main(String[] args) {
             BankAccount BANKER = new BankAccount(234);
-            BANKER.deposit(234);
+            BANKER.deposit(700);
             System.out.println(BANKER.getBalance());
-            BANKER.withdraw(200);
+            BANKER.withdraw(800);
             System.out.println(BANKER.getBalance());
             BANKER.withdraw(100);
             System.out.println(BANKER.getBalance());

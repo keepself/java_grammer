@@ -21,6 +21,9 @@ public class C1330MethodOverriding {
         Queue<String> myList1 = new LinkedList<>();
 
 
+
+
+
     }
 }
 class Animal {
