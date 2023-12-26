@@ -7,7 +7,7 @@ public class C1203CLASS2 {
 //        객체머서드 whoIs() : name, email, password, age 입니다. ->출ㄹ력
 //        객체 생성후 whoIs메서드 호출
         Person a = new Person();
-//        변수값에 직접 접근하여 값을 할당하는 방식
+////        변수값에 직접 접근하여 값을 할당하는 방식
         a.setName("dlckdtjs");
         System.out.println(a.getName());
 

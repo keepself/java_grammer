@@ -1,3 +1,7 @@
+import java.sql.SQLOutput;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class SW {
@@ -60,29 +64,167 @@ public class SW {
 //            System.out.println("윤년이x");
 //        }
 
-    class Solution {
-        public int solution(int angle) {
-            int answer = 0;
-            if (angle < 90) {
-                answer = 1;
+//    class Solution {
+//        public int solution(int angle) {
+//            int answer = 0;
+//            if (angle < 90) {
+//                answer = 1;
+//
+//            } else if (90 == angle) {
+//                answer = 2;
+//
+//            } else if (angle < 180) {
+//                answer = 3;
+//
+//            } else if (angle == 180) {
+//                answer = 4;
+//            }
+//
+//            return answer;
+//        }
+//
+//
+//    }
 
-            } else if (90 == angle) {
-                answer = 2;
+    public static void main(String[] args) {
 
-            } else if (angle < 180) {
-                answer = 3;
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
 
-            } else if (angle == 180) {
-                answer = 4;
+        int[] size1 = new int[size];
+        System.out.println(Arrays.toString(size1));
+
+        int total = 0;
+        int total2 = 0;
+
+        for (int i = 0; i < size; i++) {
+            size1[i] = sc.nextInt();
+//            System.out.println("i = " + i);
+            if ((i + 1) % 2 == 0) {
+//                System.out.println("i+1 = " + (i + 1));
+                total2 = total2 + size1[i];
+            } else {
+                total = total + size1[i];
+
             }
-
-            return answer;
+            System.out.println(total);
+//            System.out.println(Arrays.toString(size1));
+            System.out.println(total2 - total);
         }
+//
+//        int total = 0;
+//        int total2 = 0;
+
+//        for (int i = 0; i < size; i++) {
+//            size1[i] = sc.nextInt();
+//            System.out.println("i = "+i );
+//            if((i+1)%2==0) {
+////                System.out.println("i+1 = "+(i+1));
+//                total2=total2+size1[i];
+//            }else{
+//                total = total+size1[i];
+//            }
+//            System.out.println("total2 = "+ total2);
+//            System.out.println("total = "+ total);
+//        }
+//        System.out.println(Arrays.toString(size1));
+//    }
+
+
+// if(size%2==0){
+//     for (int i = 0; i < size; i++) {
+//
+//     }
+// }else{size%2 !=0;
+// {
+
+//    size1[size] = 0;
+//
+//        System.out.println(siz  e);
+//
+//        System.out.println("");
+
+
+        //
+//        for (int i = 1 ; i <= 9; i++) {
+//
+//            System.out.println(NUM*i);
+
+//            }
+
+
+//        for (int i = 0; i < num ; i++) {
+//
+//            for (int j = 0; j <= i ; j++) {
+//                System.out.print("*");
+//
+//
+//            }
+//            System.out.println();
+//        }
+
+//
+//        for (int i = 0; i < num; i++) {
+//            for (int j = num-i; j > 0 ; j--) {
+//                System.out.print("*");
+//
+//
+//            }
+//            System.out.println();
+//        }
+
+//        for (int i = 0; i < num; i++) {
+//             for (int j = 1; j < num-i; j++) {    //공백을 담당하는 for문
+//                System.out.print(" ");
+//            }
+//            for (int j = 0; j <= i; j++) {    //별을 담당하는 for문
+//                System.out.print("*");
+//            }
+//            System.out.println();
+//
+//
+//        }
+
+
+//
+//        String[] arr = {"홍신애","심재혁","조경남","이창선"};
+//        System.out.println(arr[num-1]);
+//        Arrays.sort(arr);
+//        System.out.println(Arrays.toString(arr));
+//        Arrays.sort(arr, Comparator.reverseOrder());
+//        System.out.println(Arrays.toString(arr));
+//        for (int i = 0; i < arr.length ; i++) {
+//
+//            System.out.println("조원"+arr[i]+"입니다.");
+//        }
+
+//        arr[0] = num/500;
+//        num = num%500;
+//        arr[1] = num/100;
+//        num = num%100;
+//        arr[2] =num/50;
+//        num = num%50;
+//        arr[3] =num/10;
+//
+//        System.out.println("500원은" + arr[0] +"개 입니다.");
+//        System.out.println("100원은" + arr[1] +"개 입니다.");
+//        System.out.println("50원은" + arr[2] +"개 입니다.");
+//        System.out.println("10원은" + arr[3] +"개 입니다.");
+
+
+// for (int i = 0; i < num; i++) {
+//        for (int j = 0; j < i; j++) {    //공백을 담당하는 for문
+//        System.out.print(" ");
+//        }
+//        for (int j = 0; j < num - i; j++) {    //별을 담당하는 for문
+//        System.out.print("*");
+//        }
+//        System.out.println()
+
+//for (int i = 1; i < 10; i++) {
+//
+//    System.out.println(i*num);
 
 
     }
-
-
-
-        }
-
+}

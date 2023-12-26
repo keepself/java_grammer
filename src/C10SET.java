@@ -64,7 +64,7 @@ public class C10SET {
 
 
 
-//        순서가 없어서 enhanced for 문,iterator 사용
+//        순서가 없어서 enhanced for 문,`iterator` 사용
 
 
 //        LinkedHashSet, TreeSet

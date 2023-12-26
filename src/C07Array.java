@@ -36,7 +36,7 @@ public class C07Array {
 //        int[] arr = {10, 20, 30, 12, 8, 17};
 //        int max = arr[0];
 //        int min = arr[0];
-//        for (int i = 0; i < arr.length; i++) {
+//        for (int i = 0; i < arr.length; i++) {g
 //            if (max < arr[i]) {
 //                max = arr[i];
 //
