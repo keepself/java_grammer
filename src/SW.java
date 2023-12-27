@@ -86,31 +86,31 @@ public class SW {
 //
 //    }
 
-    public static void main(String[] args) {
-
-        Scanner sc = new Scanner(System.in);
-        int size = sc.nextInt();
-
-        int[] size1 = new int[size];
-        System.out.println(Arrays.toString(size1));
-
-        int total = 0;
-        int total2 = 0;
-
-        for (int i = 0; i < size; i++) {
-            size1[i] = sc.nextInt();
-//            System.out.println("i = " + i);
-            if ((i + 1) % 2 == 0) {
-//                System.out.println("i+1 = " + (i + 1));
-                total2 = total2 + size1[i];
-            } else {
-                total = total + size1[i];
-
-            }
-            System.out.println(total);
-//            System.out.println(Arrays.toString(size1));
-            System.out.println(total2 - total);
-        }
+//    public static void main(String[] args) {
+//
+//        Scanner sc = new Scanner(System.in);
+//        int size = sc.nextInt();
+//
+//        int[] size1 = new int[size];
+//        System.out.println(Arrays.toString(size1));
+//
+//        int total = 0;
+//        int total2 = 0;
+//
+//        for (int i = 0; i < size; i++) {
+//            size1[i] = sc.nextInt();
+////            System.out.println("i = " + i);
+//            if ((i + 1) % 2 == 0) {
+////                System.out.println("i+1 = " + (i + 1));
+//                total2 = total2 + size1[i];
+//            } else {
+//                total = total + size1[i];
+//
+//            }
+//            System.out.println(total);
+////            System.out.println(Arrays.toString(size1));
+//            System.out.println(total2 - total);
+//        }
 //
 //        int total = 0;
 //        int total2 = 0;
@@ -227,4 +227,4 @@ public class SW {
 
 
     }
-}
+//}
