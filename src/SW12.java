@@ -42,9 +42,9 @@ public class SW12 {
 
 
 
-
-        int answer = 0;
-        return answer;
+//
+//        int answer = 0;
+//        return answer;
 
     }
 }

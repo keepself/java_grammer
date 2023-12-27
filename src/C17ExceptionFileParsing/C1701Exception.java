@@ -1,4 +1,4 @@
-package C17ExceptionFIileParsing;
+package C17ExceptionFileParsing;
 
 import java.util.Scanner;
 
