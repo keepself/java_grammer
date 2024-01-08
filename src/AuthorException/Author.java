@@ -26,11 +26,7 @@ class Author{
         return password;
     }
 
-    Author(
-            String name,
-            String email,
-            String password
-    ){
+    Author(String name, String email, String password){
         static_count++;
         this.id = static_count;
         this.name = name;

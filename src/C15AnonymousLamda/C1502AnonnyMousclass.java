@@ -1,5 +1,9 @@
 package C15AnonymousLamda;
 
+import org.w3c.dom.ls.LSOutput;
+
+import java.util.ArrayList;
+
 public class C1502AnonnyMousclass {
     public static void main(String[] args) {
 
@@ -10,14 +14,17 @@ public class C1502AnonnyMousclass {
                  System.out.println("멍멍"+ n);
              }
          };
+         zz.makeSound(6);
+
+
 
 
 
 //         익명객체에 구현메서드가 1개밖에 없을경우에 람다표현식(화살표함수)로 표현가능
 //         ()부분에 매개변수 지정하여 구현체에서 활용 , 변수의 개수가 많을때는 개수에 맞춰 지정
-        Animal cc = (n) -> System.out.println("야옹" + n);
+        Animal cc = (x) -> System.out.println("야옹" + x);
 
-
+cc.makeSound(3);
     }
 }
 

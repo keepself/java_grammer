@@ -160,7 +160,7 @@ public class C08LIST {
 
         List<String> stList = new ArrayList<>();
         stList.add("LEE");
-        stList.add("CHAGN");
+        stList.add("CHANG");
         stList.add("SEON");
         String[] stARR = new String[ stList.size()];
         for (int i = 0; i < stARR.length; i++) {

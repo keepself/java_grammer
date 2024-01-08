@@ -20,12 +20,12 @@ public class AuthorController {
                     System.out.println();
                     sc.nextLine();
                     System.out.println("이름을 입력하세요.");
-                    String name = sc.nextLine();
+                    String name1 = sc.nextLine();
                     System.out.println("이메일을 입력하세요.");
-                    String email = sc.nextLine();
+                    String email2 = sc.nextLine();
                     System.out.println("비밀번호를 입력하세요.");
-                    String password = sc.nextLine();
-                    Author auth = new Author(name, email, password);
+                    String password3 = sc.nextLine();
+                    Author auth = new Author(name1, email2, password3);
                     try {
                         authorService.register(auth);
                         System.out.println("회원가입에 성공했습니다.");

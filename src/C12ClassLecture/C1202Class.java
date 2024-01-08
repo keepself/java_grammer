@@ -1,6 +1,6 @@
 package C12ClassLecture;
 
-public class C1202Class {
+public class C1202Class extends Calculator {
     public static void main(String[] args) {
         System.out.println(Calculator.sum(10,20));
         System.out.println(Calculator.sum(10));
@@ -11,7 +11,15 @@ public class C1202Class {
 
 //내부클래스
 class Calculator {
-    static int total = 0;
+    static private int total = 0;
+
+    public int getTotal() {
+        return total;
+    }
+
+    public  void setTotal(int total) {
+        Calculator.total = total;
+    }
 
     //    매개변수2개 받아서 더한값 return : sum
     static int sum(int a, int b) {
