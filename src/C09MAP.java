@@ -16,21 +16,22 @@ public class C09MAP {
 //        System.out.println(myMap.get("baseball"));
 
 //        System.out.println(myMap.remove("soccer"));
-//        System.out.println(myMap.size());
-////
+        System.out.println(myMap.size());
+        System.out.println(myMap);
+//
 ////        size(), isEmpty() 사용가능
 ////        이미 key가 있을경우 put을하면 덮어쓰기
 //
 //        myMap.put("baseball", "배구");
-////         없으면 put이 putIfAbsent
+////         없으면 put이 putIfAbsen    t
 //        myMap.putIfAbsent("baseball", "배구");
 ////          get0rdefault : key가 없으면 default값 return
 //        System.out.println(myMap.getOrDefault("tennis", "스포츠"));
 //        System.out.println(myMap.containsKey("tennis"));
 //
-        myMap.remove("baseball");
-        System.out.println(myMap.keySet());
-        System.out.println(myMap.values());
+//        myMap.remove("baseball");
+//        System.out.println(myMap.keySet());
+//        System.out.println(myMap.values());
 
 ////        enhanced for: key값 하나씩 출력.
 //        int total = 0;
@@ -122,11 +123,13 @@ public class C09MAP {
 
 
 
+//for(int i =0; i< recode.length; i++){
+
+    }
 
 
 
-
-        }
+//        }
 
 
 

@@ -7,7 +7,7 @@ import static java.util.Arrays.asList;
 public class C08LIST {
     public static void main(String[] args) {
 
-//        List<Integer> myList = new ArrayList();
+//         List<Integer> myList = new ArrayList();
 //        myList.add(10);
 //        myList.add(20);
 ////        add(int index int element) : 중간에 값 삽인은 기본적으로 성능저하
@@ -18,7 +18,7 @@ public class C08LIST {
 //        myList2.add(40);
 //        myList2.add(50);
 //
-////  addALL(Collection객체) : 특정 리스트의 요소를 모두 ㅁdd
+////  addALL(Collection객체) : 특정 리스트의 요소를 모두 add
 //        myList.addAll(myList2);
 //        System.out.println(myList);
 //
@@ -32,7 +32,7 @@ public class C08LIST {
 //             myList.get(i);
 //
 //        }
-////
+////r
 ////        for (int i = 0; i < myList.size(); i++) {
 ////            myList.get(i);
 ////
